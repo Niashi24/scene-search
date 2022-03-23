@@ -1,0 +1,16 @@
+{
+    "name": "ls.scene-search",
+    "version": "1.0.0",
+    "displayName": "Scene Search Attribute",
+    "description": "An attribute for adding a search button for objects in scene in your code.",
+    "unity": "2019.1",
+    "keywords": [
+      "attribute",
+      "scene",
+      "search",
+      "window"
+    ],
+    "author": {
+      "name": "LS"
+    }
+  }
