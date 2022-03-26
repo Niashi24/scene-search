@@ -19,7 +19,7 @@ namespace LS.Attributes.Editor
             position.width -= attrib.buttonWidth;
             var fieldType = this.fieldInfo.FieldType;
 
-            EditorGUI.ObjectField(position, label, property.objectReferenceValue, fieldType, true);
+            property.objectReferenceValue = EditorGUI.ObjectField(position, label, property.objectReferenceValue, fieldType, true);
 
             position.x += position.width;
             position.width = attrib.buttonWidth;
